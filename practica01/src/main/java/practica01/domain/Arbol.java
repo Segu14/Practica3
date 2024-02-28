@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package practica01.domain;
 
 import jakarta.persistence.*;
@@ -19,6 +16,7 @@ public class Arbol implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="id_arbol")
     private Long idArbol;
+    
     private String rutaImagen;
     private String nombreComun;
     private String tipoFlor;
